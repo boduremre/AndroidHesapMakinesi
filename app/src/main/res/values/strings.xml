@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="btnAC">AC</string>
+    <string name="btnArtiEksi">+/-</string>
+    <string name="btnYuzde">%</string>
+    <string name="btnBolu">/</string>
+    <string name="btnCarpma">X</string>
+    <string name="btnCikarma">-</string>
+    <string name="btnToplama">+</string>
+    <string name="btnEsittir">=</string>
+    <string name="btnNokta">.</string>
+    <string name="btnVirgul"></string>
+    <string name="btnSifir">0</string>
+    <string name="btnBir">1</string>
+    <string name="btnIki">2</string>
+    <string name="btnUc">3</string>
+    <string name="btndort">4</string>
+    <string name="btnBes">5</string>
+    <string name="btnAlti">6</string>
+    <string name="btnYedi">7</string>
+    <string name="btnSekiz">8</string>
+    <string name="btnDokuz">9</string>
+</resources>

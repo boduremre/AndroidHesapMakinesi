@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorThemePrimary"
+    android:orientation="vertical"
+    android:theme="@style/Theme.HesapMakinesi"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextSayiGoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorThemePrimary"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:paddingTop="80dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="80dp"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="34sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAC"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnACClick"
+                android:text="@string/btnAC"
+                android:textColor="@color/colorThemePrimary"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:theme="@style/Theme.HesapMakinesi"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnArtiEksi"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnArtiEksi"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnYuzde"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnOpTikClick"
+                android:text="@string/btnYuzde"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnBolme"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnOpTikClick"
+                android:text="@string/btnBolu"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp"
+                app:rippleColor="@color/colorButtonBackground" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnYedi"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnYedi"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnSekiz"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnSekiz"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnDokuz"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnDokuz"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnCarpma"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnOpTikClick"
+                android:text="@string/btnCarpma"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnDort"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btndort"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnBes"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnBes"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnAlti"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnAlti"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnCikarma"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnOpTikClick"
+                android:text="@string/btnCikarma"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnBir"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnBir"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnIki"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnIki"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnUc"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnUc"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnToplama"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnOpTikClick"
+                android:text="@string/btnToplama"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnSifir"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnSifir"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnVirgul"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:text="@string/btnVirgul"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnNokta"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorButtonBackground"
+                android:onClick="btnSayiTik"
+                android:text="@string/btnNokta"
+                android:textColor="@color/colorThemePrimary"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btnEsittir"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:background="@color/colorThemePrimary"
+                android:text="@string/btnEsittir"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="0dp" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
